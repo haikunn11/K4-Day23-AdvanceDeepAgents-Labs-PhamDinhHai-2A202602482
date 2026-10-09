@@ -1,0 +1,218 @@
+[
+  {
+    "n": 1,
+    "id": "2610.11482",
+    "url": "https://arxiv.org/abs/2610.11482",
+    "title": "Evaluating Local Language Model Agents for Reproducible Data Engineering",
+    "date": "2026-10-08",
+    "source": "arxiv"
+  },
+  {
+    "n": 2,
+    "id": "2610.03089",
+    "url": "https://arxiv.org/abs/2610.03089",
+    "title": "Securing Computer-Use Agents Against Branch Steering Attacks",
+    "date": "2026-10-02",
+    "source": "arxiv"
+  },
+  {
+    "n": 3,
+    "id": "2610.02569",
+    "url": "https://arxiv.org/abs/2610.02569",
+    "title": "Pincer: Resource Authorization for Agents using a Digital Twin",
+    "date": "2026-10-01",
+    "source": "arxiv"
+  },
+  {
+    "n": 4,
+    "id": "2609.36892",
+    "url": "https://arxiv.org/abs/2609.36892",
+    "title": "Harness Evolution as Learning: Approximation, Generalization, and Optimization Limits of Self-Improving Personal Agents",
+    "date": "2026-09-29",
+    "source": "arxiv"
+  },
+  {
+    "n": 5,
+    "id": "2609.36362",
+    "url": "https://arxiv.org/abs/2609.36362",
+    "title": "Strategies for Deploying AI Agents in Production at Scientific User Facilities",
+    "date": "2026-09-28",
+    "source": "arxiv"
+  },
+  {
+    "n": 6,
+    "id": "2609.35427",
+    "url": "https://arxiv.org/abs/2609.35427",
+    "title": "LLMs are General Asynchronous Agents",
+    "date": "2026-09-28",
+    "source": "arxiv"
+  },
+  {
+    "n": 7,
+    "id": "2609.30691",
+    "url": "https://arxiv.org/abs/2609.30691",
+    "title": "ADF-EA: A Unified Execution Assurance System for Agent Device Foundation",
+    "date": "2026-09-25",
+    "source": "arxiv"
+  },
+  {
+    "n": 8,
+    "id": "arxiv-2604.00835",
+    "url": "https://arxiv.org/abs/arxiv-2604.00835",
+    "title": "Survey: Paradigms of Tool Use for LLM Agents",
+    "date": "n.d.",
+    "source": "arxiv"
+  },
+  {
+    "n": 9,
+    "id": "2609.30341",
+    "url": "https://arxiv.org/abs/2609.30341",
+    "title": "Bridging LLM Agents and Data Spaces: An Architectural Mediation Approach using the Model Context Protocol",
+    "date": "2026-09-24",
+    "source": "arxiv"
+  },
+  {
+    "n": 10,
+    "id": "2609.19334",
+    "url": "https://arxiv.org/abs/2609.19334",
+    "title": "A frontend-backend architecture for tool calls in full-duplex speech models",
+    "date": "2026-09-16",
+    "source": "arxiv"
+  },
+  {
+    "n": 11,
+    "id": "2609.13335",
+    "url": "https://arxiv.org/abs/2609.13335",
+    "title": "Bridging Thought and Action: Taming Long-Horizon Instability in Open-Source LLM Agents with a MetaTool-Enhanced ROS Framework",
+    "date": "2026-09-11",
+    "source": "arxiv"
+  },
+  {
+    "n": 12,
+    "id": "2605.02964",
+    "url": "https://huggingface.co/papers/2605.02964",
+    "title": "Reward Hacking Benchmark: Measuring Exploits in LLM Agents with Tool Use",
+    "date": "2026-05-03",
+    "source": "hf-search"
+  },
+  {
+    "n": 13,
+    "id": "2406.05804",
+    "url": "https://arxiv.org/abs/2406.05804",
+    "title": "A Review of Prominent Paradigms for LLM-Based Agents: Tool Use (Including RAG), Planning, and Feedback Learning",
+    "date": "n.d.",
+    "source": "arxiv"
+  },
+  {
+    "n": 14,
+    "id": "2603.22862",
+    "url": "https://arxiv.org/abs/2603.22862",
+    "title": "The Evolution of Tool Use in LLM Agents: From Single-Tool Call to Multi-Tool Orchestration",
+    "date": "n.d.",
+    "source": "arxiv"
+  },
+  {
+    "n": 15,
+    "id": "findings-emnlp.624",
+    "url": "https://arxiv.org/abs/findings-emnlp.624",
+    "title": "Learning to Use Tools via Cooperative and Interactive Agents with Large Language Models (CONAGENTS)",
+    "date": "n.d.",
+    "source": "arxiv"
+  },
+  {
+    "n": 16,
+    "id": "2501.06322",
+    "url": "https://arxiv.org/abs/2501.06322",
+    "title": "Multi-Agent Collaboration Mechanisms: A Survey of LLMs",
+    "date": "2025-01-10",
+    "source": "arxiv"
+  },
+  {
+    "n": 17,
+    "id": "n.d.",
+    "url": "https://www.anthropic.com/engineering/building-effective-agents",
+    "title": "Building Effective AI Agents (Anthropic blog post)",
+    "date": "2024-12-19",
+    "source": "web"
+  },
+  {
+    "n": 18,
+    "id": "arxiv:2507.21504",
+    "url": "https://huggingface.co/papers/arxiv:2507.21504",
+    "title": "Evaluation and Benchmarking of LLM Agents: A Survey",
+    "date": "2025-07-29",
+    "source": "hf-search"
+  },
+  {
+    "n": 19,
+    "id": "HF_paper_2501.12851",
+    "url": "https://huggingface.co/papers/HF_paper_2501.12851",
+    "title": "ACEBench: A Comprehensive Evaluation of LLM Tool Usage",
+    "date": "2025-01-22",
+    "source": "hf-search"
+  },
+  {
+    "n": 20,
+    "id": "HF_paper_2407.10499",
+    "url": "https://huggingface.co/papers/HF_paper_2407.10499",
+    "title": "T-Eval: Evaluating Tool Utilization Capability Step by Step",
+    "date": "2024",
+    "source": "hf-search"
+  },
+  {
+    "n": 21,
+    "id": "arxiv:2510.04550",
+    "url": "https://arxiv.org/abs/arxiv:2510.04550",
+    "title": "TRAJECT-Bench: Trajectory-aware Benchmark for Tool Use in LLM Agents",
+    "date": "2025-10-06",
+    "source": "arxiv"
+  },
+  {
+    "n": 22,
+    "id": "ToolSandbox",
+    "url": "https://github.com/apple/ToolSandbox",
+    "title": "ToolSandbox: Stateful Conversational Interactive Evaluation Framework",
+    "date": "N/A",
+    "source": "web"
+  },
+  {
+    "n": 23,
+    "id": "2609.16098",
+    "url": "https://arxiv.org/abs/2609.16098",
+    "title": "Universal Defenses for Tool-Integrated LLM Agents Against Adversarial Attacks",
+    "date": "2026-09-14",
+    "source": "arxiv"
+  },
+  {
+    "n": 24,
+    "id": "2608.29309",
+    "url": "https://arxiv.org/abs/2608.29309",
+    "title": "Evaluating LLM-based AI agents integrated with materials synthesis tools",
+    "date": "2026-08-29",
+    "source": "arxiv"
+  },
+  {
+    "n": 25,
+    "id": "2608.08413",
+    "url": "https://arxiv.org/abs/2608.08413",
+    "title": "Tangent: An Empirical Study of Testing Practices for LLM-Based Agent Applications",
+    "date": "2026-08-09",
+    "source": "arxiv"
+  },
+  {
+    "n": 26,
+    "id": "web-anthropic-2025-09-11",
+    "url": "https://www.anthropic.com/engineering/writing-tools-for-agents",
+    "title": "Writing effective tools for AI agents—using Claude as an example",
+    "date": "2025-09-11",
+    "source": "web"
+  },
+  {
+    "n": 27,
+    "id": "web-conagents-2024",
+    "url": "https://aclanthology.org/2024.findings-emnlp.624.pdf",
+    "title": "Learning to Use Tools via Cooperative and Interactive Agents with Large Language Models",
+    "date": "n.d.",
+    "source": "web"
+  }
+]

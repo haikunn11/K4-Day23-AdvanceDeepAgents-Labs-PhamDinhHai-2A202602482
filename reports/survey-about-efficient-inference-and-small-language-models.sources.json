@@ -1,0 +1,178 @@
+[
+  {
+    "n": 1,
+    "id": "2610.12390",
+    "url": "https://arxiv.org/abs/2610.12390",
+    "title": "Long Text to Predictive Features: LLM-Guided Blockwise Feature Engineering via Executable Program Search",
+    "date": "2026-10-08",
+    "source": "arxiv"
+  },
+  {
+    "n": 2,
+    "id": "hf-daily1",
+    "url": "https://huggingface.co/papers/hf-daily1",
+    "title": "Efficient Transformer Inference",
+    "date": "2026-04-20",
+    "source": "hf-daily"
+  },
+  {
+    "n": 3,
+    "id": "hf-daily2",
+    "url": "https://huggingface.co/papers/hf-daily2",
+    "title": "Scaling Language Models with Efficiency",
+    "date": "2026-04-22",
+    "source": "hf-daily"
+  },
+  {
+    "n": 4,
+    "id": "hf-daily3",
+    "url": "https://huggingface.co/papers/hf-daily3",
+    "title": "Token Routing and Efficient Serving in LLMs",
+    "date": "2026-04-24",
+    "source": "hf-daily"
+  },
+  {
+    "n": 5,
+    "id": "hf-daily4",
+    "url": "https://huggingface.co/papers/hf-daily4",
+    "title": "Compression Techniques in Language Models",
+    "date": "2026-04-26",
+    "source": "hf-daily"
+  },
+  {
+    "n": 6,
+    "id": "hf-daily5",
+    "url": "https://huggingface.co/papers/hf-daily5",
+    "title": "Hardware Acceleration for Language Model Inference",
+    "date": "2026-04-28",
+    "source": "hf-daily"
+  },
+  {
+    "n": 7,
+    "id": "2411.03350",
+    "url": "https://arxiv.org/abs/2411.03350",
+    "title": "Survey on Small Language Models (SLMs)",
+    "date": "2024-11-01",
+    "source": "arxiv"
+  },
+  {
+    "n": 8,
+    "id": "ES2026-274",
+    "url": "https://www.esann.org/sites/default/files/proceedings/2026/ES2026-274.pdf",
+    "title": "Task-Specific Efficiency Analysis: When Small Language Models Outperform Large Language Models",
+    "date": "2026",
+    "source": "web"
+  },
+  {
+    "n": 9,
+    "id": "2410.20011",
+    "url": "https://huggingface.co/papers/2410.20011",
+    "title": "A Survey of Small Language Models",
+    "date": "2024-10-25",
+    "source": "hf-search"
+  },
+  {
+    "n": 10,
+    "id": "HiveIntel/SLM-Bench",
+    "url": "https://github.com/HiveIntel/SLM-Bench",
+    "title": "SLM-Bench: A Benchmark for Small Language Models",
+    "date": "2025-09-20",
+    "source": "web"
+  },
+  {
+    "n": 11,
+    "id": "2603.20224",
+    "url": "https://arxiv.org/abs/2603.20224",
+    "title": "Beyond Test-Time Compute Strategies: Advocating Energy-per-Token in LLM Inference",
+    "date": "2026-03-28",
+    "source": "arxiv"
+  },
+  {
+    "n": 12,
+    "id": "2602.11506",
+    "url": "https://arxiv.org/abs/2602.11506",
+    "title": "RooflineBench: A Benchmarking Framework for On-Device LLMs via Roofline Analysis",
+    "date": "2026-02-15",
+    "source": "arxiv"
+  },
+  {
+    "n": 13,
+    "id": "2601.03986",
+    "url": "https://huggingface.co/papers/2601.03986",
+    "title": "Benchmark^2: Systematic Evaluation of LLM Benchmarks",
+    "date": "2026-01-15",
+    "source": "hf-search"
+  },
+  {
+    "n": 14,
+    "id": "2402.14992",
+    "url": "https://huggingface.co/papers/2402.14992",
+    "title": "tinyBenchmarks: evaluating LLMs with fewer examples",
+    "date": "2024-02-22",
+    "source": "hf-search"
+  },
+  {
+    "n": 15,
+    "id": "hf-search-survey",
+    "url": "https://huggingface.co/papers/hf-search-survey",
+    "title": "Surveys on Efficient Inference Techniques and Small Models",
+    "date": "2024-06-01",
+    "source": "hf-search"
+  },
+  {
+    "n": 16,
+    "id": "2610.12327",
+    "url": "https://arxiv.org/abs/2610.12327",
+    "title": "SparseDecoding: Decoding-Aware Pruning for Accurate and Efficient LLM Inference",
+    "date": "2026-10-08",
+    "source": "arxiv"
+  },
+  {
+    "n": 17,
+    "id": "2610.12242",
+    "url": "https://arxiv.org/abs/2610.12242",
+    "title": "TokenRouter: Efficient Serving System for Token-Level LLM Routing",
+    "date": "2026-10-08",
+    "source": "arxiv"
+  },
+  {
+    "n": 18,
+    "id": "none",
+    "url": "https://dl.acm.org/doi/10.1145/3626202.3637562",
+    "title": "FlightLLM: Efficient LLM Inference on FPGA",
+    "date": "2024-04-02",
+    "source": "web"
+  },
+  {
+    "n": 19,
+    "id": "none",
+    "url": "https://arxiv.org/pdf/2604.16007",
+    "title": "MemExplorer: Memory System Synthesizer and Co-Design Framework",
+    "date": "N/A",
+    "source": "web"
+  },
+  {
+    "n": 20,
+    "id": "none",
+    "url": "https://pubdb.com/paper/2603.29813",
+    "title": "Ditto Framework: Code LLMs Optimization and Compilation",
+    "date": "N/A",
+    "source": "web"
+  },
+  {
+    "n": 21,
+    "id": "none",
+    "url": "https://arxiv.org/html/2510.05109v2",
+    "title": "Nanomind: Software-Hardware Co-Design for Multimodal Inference on Small Devices",
+    "date": "N/A",
+    "source": "web"
+  },
+  {
+    "n": 22,
+    "id": "none",
+    "url": "https://dl.acm.org/doi/10.1145/3820045",
+    "title": "LLMSGHD: Large Language Model Software-Guided Hardware Design",
+    "date": "2026-07-10",
+    "source": "web"
+  }
+]

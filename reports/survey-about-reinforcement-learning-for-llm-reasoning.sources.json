@@ -1,0 +1,82 @@
+[
+  {
+    "n": 1,
+    "id": "2603.13985",
+    "url": "https://arxiv.org/abs/2603.13985",
+    "title": "Supervised Fine-Tuning versus Reinforcement Learning: A Study of Post-Training Methods for Large Language Models",
+    "date": "2026-03-14",
+    "source": "arxiv"
+  },
+  {
+    "n": 2,
+    "id": "sebastian-raschka-2025-llm-reasoning",
+    "url": "https://magazine.sebastianraschka.com/p/the-state-of-llm-reasoning-model-training",
+    "title": "The State of Reinforcement Learning for LLM Reasoning",
+    "date": "2025-04-19",
+    "source": "web"
+  },
+  {
+    "n": 3,
+    "id": "2504.20571",
+    "url": "https://arxiv.org/abs/2504.20571",
+    "title": "Reinforcement Learning with Verifiable Reward (RLVR) for Mathematical Reasoning in LLMs",
+    "date": "2025-04",
+    "source": "arxiv"
+  },
+  {
+    "n": 4,
+    "id": "2504.20571",
+    "url": "https://huggingface.co/papers/2504.20571",
+    "title": "Reinforcement Learning for Reasoning in Large Language Models with One Training Example",
+    "date": "2025-04-29",
+    "source": "hf-search"
+  },
+  {
+    "n": 5,
+    "id": "acl-2025-offline-rl-oreo",
+    "url": "https://arxiv.org/abs/2106.07076",
+    "title": "Offline Reinforcement Learning for LLM Multi-step Reasoning (OREO)",
+    "date": "2025",
+    "source": "arxiv"
+  },
+  {
+    "n": 6,
+    "id": "2505.17218",
+    "url": "https://arxiv.org/abs/2505.17218",
+    "title": "Effective Reinforcement Learning for Reasoning in Language Models",
+    "date": "2025-05",
+    "source": "arxiv"
+  },
+  {
+    "n": 7,
+    "id": "2509.08827",
+    "url": "https://huggingface.co/papers/2509.08827",
+    "title": "A Survey of Reinforcement Learning for Large Reasoning Models",
+    "date": "2025-09-10",
+    "source": "hf-search"
+  },
+  {
+    "n": 8,
+    "id": "2402.05808",
+    "url": "https://huggingface.co/papers/2402.05808",
+    "title": "Training Large Language Models for Reasoning through Reverse Curriculum Reinforcement Learning",
+    "date": "2024-02-08",
+    "source": "hf-search"
+  },
+  {
+    "n": 9,
+    "id": "2510.01857",
+    "url": "https://huggingface.co/papers/2510.01857",
+    "title": "Learning Reasoning Reward Models from Expert Demonstration via Inverse Reinforcement Learning",
+    "date": "2025-10-02",
+    "source": "hf-search"
+  },
+  {
+    "n": 10,
+    "id": "2505.24864",
+    "url": "https://huggingface.co/papers/2505.24864",
+    "title": "ProRL: Prolonged Reinforcement Learning Expands Reasoning Boundaries in Large Language Models",
+    "date": "2025-05-30",
+    "source": "hf-search"
+  }
+]

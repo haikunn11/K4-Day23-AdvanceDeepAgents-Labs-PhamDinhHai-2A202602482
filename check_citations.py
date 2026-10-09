@@ -5,6 +5,7 @@ research.py uploads this file to the sandbox and the lead agent runs it with the
 It must exit 0 and print "OK: ..." when the report is consistent, else print each problem and exit 1.
 """
 import json
+import re
 import sys
 
 REPORT = "/tmp/work/report/report.md"
@@ -32,7 +33,79 @@ def check(report_text, sources):
           (a line bundling several sources under one number is a problem)
       return problems
     """
-    raise NotImplementedError("TODO: implement check()")
+    problems = []
+    if not isinstance(sources, list) or not sources:
+        return ["no sources in sources.json"]
+    by_n, seen_urls = {}, {}
+    for index, source in enumerate(sources):
+        if not isinstance(source, dict):
+            problems.append(f"source at index {index} is not an object")
+            continue
+        n, url = source.get("n"), source.get("url")
+        if not isinstance(n, int) or isinstance(n, bool):
+            problems.append(f"source at index {index} has non-integer n")
+        elif n in by_n:
+            problems.append(f"source number [{n}] is duplicated")
+        else:
+            by_n[n] = source
+        if not isinstance(url, str) or not re.match(r"^https?://", url):
+            problems.append(f"source [{n}] has invalid url")
+        elif url in seen_urls:
+            problems.append(f"url duplicated in sources [{seen_urls[url]}] and [{n}]")
+        else:
+            seen_urls[url] = n
+        family = source.get("source")
+        if family not in {"arxiv", "hf-daily", "hf-search", "web"}:
+            problems.append(f"source [{n}] has invalid source family")
+        elif family == "arxiv" and not str(url).startswith("https://arxiv.org/abs/"):
+            problems.append(f"source [{n}] labeled arxiv must use an https://arxiv.org/abs/ URL")
+        elif family in {"hf-daily", "hf-search"} and not str(url).startswith("https://huggingface.co/papers/"):
+            problems.append(f"source [{n}] labeled {family} must use a Hugging Face papers URL")
+
+    headings = list(re.finditer(r"(?m)^##[ \t]+References[ \t]*$", report_text))
+    if not headings:
+        problems.append("missing ## References heading")
+        body, references = report_text, ""
+    else:
+        body = report_text[:headings[-1].start()]
+        references = report_text[headings[-1].end():]
+    body = re.sub(r"```.*?```|`[^`\n]*`", "", body, flags=re.S)
+    body = re.sub(r"\[[^\]\n]+\]\([^\n)]*\)", "", body)
+    cited = set()
+    for match in re.finditer(r"\[(\d+(?:\s*[,–-]\s*\d+)*)\](?!\()", body):
+        for part in re.split(r"\s*,\s*", match.group(1)):
+            span = re.fullmatch(r"(\d+)\s*[–-]\s*(\d+)", part)
+            if span:
+                start, end = map(int, span.groups())
+                cited.update(range(start, end + 1) if 0 <= end - start <= 200 else (start, end))
+            else:
+                cited.add(int(part))
+    for n in sorted(cited - set(by_n)):
+        problems.append(f"[{n}] cited but missing from sources.json")
+    for n in sorted(set(by_n) - cited):
+        problems.append(f"source [{n}] never cited")
+
+    ref_lines = {}
+    for line in references.splitlines():
+        match = re.match(r"^\[(\d+)\]\s+", line.strip())
+        if match:
+            ref_lines.setdefault(int(match.group(1)), []).append(line.strip())
+    for n in sorted(set(ref_lines) - set(by_n)):
+        problems.append(f"reference [{n}] has no source")
+    for n, source in sorted(by_n.items()):
+        lines = ref_lines.get(n, [])
+        if not lines:
+            problems.append(f"source [{n}] has no reference line")
+            continue
+        if len(lines) != 1:
+            problems.append(f"source [{n}] has {len(lines)} reference lines")
+            continue
+        urls = re.findall(r"https?://[^\s)>]+", lines[0])
+        if len(urls) != 1:
+            problems.append(f"reference [{n}] must contain exactly one URL")
+        elif urls[0] != source.get("url"):
+            problems.append(f"reference [{n}] URL does not match sources.json")
+    return problems
 
 
 def main(argv):
